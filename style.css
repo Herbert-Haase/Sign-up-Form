@@ -1,0 +1,107 @@
+:root {
+    --sidebar-width: 20vw;
+    --main-width: calc(100vw - ( 2*var(--sidebar-width)));
+    --font: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgba(249,250,251,255);
+}
+.left {
+    background-image: url(/image/left.jpg);
+    background-repeat: no-repeat;
+    left: -10px;
+}
+
+.right {
+    background-image: url(/image/right.jpg);
+    background-repeat: no-repeat;
+    right: -10px;
+}
+
+.right, .left {
+    width: var(--sidebar-width);
+    position: relative;
+    top: -15px;
+    border: solid gray;
+    height: 101vh;
+}
+main {
+    width: var(--main-width);
+    font-family: var(--font);
+}
+p {
+    text-align: center;
+}
+
+label {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: .1em;
+} 
+.section {
+    margin: 0 5.5%;
+}
+form {
+    position: relative;
+    right: 95px;
+    margin: 50px 12.5%;
+    background-color: white;
+    width: 100%;
+    box-shadow: 1px 1px rgb(80, 79, 79);
+}
+button {
+    background-color: rgba(245,115,54,255);
+    color: white;
+    border: solid white;
+    padding: 10px 50px;
+    margin: 0 25%;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(245, 140, 54);
+
+}
+button:active {
+    border: solid black;
+}
+.button {
+    position: relative;
+    top: 100px;
+}
+a {
+    font-size: 1.2em;
+    color: rgb(80, 80, 226);
+    text-decoration: none;
+}
+a:active {
+    text-decoration: underline;
+}
+fieldset {
+    border: none;
+}
+legend {
+    font-weight: 100;
+    font-size: larger;
+}
+#img2 {
+    font-size: .9rem;
+    background-color: rgba(0, 0,0,.3);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+#img1 {
+    font-size: .9rem;
+    background-color: rgba(0, 0,0,.3);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+
