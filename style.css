@@ -46,12 +46,17 @@ label {
     margin: 0 5.5%;
 }
 form {
-    position: relative;
-    right: 95px;
-    margin: 50px 12.5%;
-    background-color: white;
+    margin: 50px .2%;
     width: 100%;
-    box-shadow: 1px 1px rgb(80, 79, 79);
+}
+fieldset {
+    border: none;
+    box-shadow: 0 1px 1px rgb(80, 79, 79);
+    background-color: white;
+    padding-bottom: 100px;
+}
+legend {
+    font-size: larger;
 }
 button {
     background-color: rgba(245,115,54,255);
@@ -69,8 +74,7 @@ button:active {
     border: solid black;
 }
 .button {
-    position: relative;
-    top: 100px;
+    margin-top: 30px;
 }
 a {
     font-size: 1.2em;
@@ -80,18 +84,11 @@ a {
 a:active {
     text-decoration: underline;
 }
-fieldset {
-    border: none;
-}
-legend {
-    font-weight: 100;
-    font-size: larger;
-}
 #img2 {
     font-size: .9rem;
     background-color: rgba(0, 0,0,.3);
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     right: 10px;
     color: white;
 }
@@ -99,9 +96,16 @@ legend {
     font-size: .9rem;
     background-color: rgba(0, 0,0,.3);
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 10px;
     color: white;
+}
+input {
+    border-radius: 5px;
+}
+input:not(input:placeholder-shown):not(input:focus):invalid {
+    border: solid red;
+    border-radius: 5px;
 }
 
 

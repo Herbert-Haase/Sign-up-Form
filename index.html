@@ -19,30 +19,30 @@
                 <div class="section">
                     <div class="input">
                         <label for="fname">First Name:</label><br>
-                        <input name="fname" type="text">
+                        <input name="fname" type="text" pattern="[a-zA-Z]+" placeholder=" " required>
                     </div>
                     <div class="input">
                         <label for="email">E-mail:</label><br>
-                        <input name="email" type="email">
+                        <input name="email" type="email" placeholder=" " required>
                     </div>
                     <div class="input">
                         <label for="password">Password:</label><br>
-                        <input name="password" type="password">
+                        <input name="password" type="password" placeholder=" " required>
                     </div>
                 </div>
                 <div class="section">
                     <div class="input">
                         <label for="lname">Last Name:</label><br>
-                        <input name="lname" type="text">
+                        <input name="lname" type="text" pattern="[a-zA-Z]+" placeholder=" " required>
                     </div>
                 
                     <div class="input">
                         <label for="phone">Phone:</label><br>
-                        <input name="phone" type="tel">
+                        <input name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 123-456-7890" required>
                     </div>
                     <div class="input">
                         <label for="confirmPassword">confirm Password:</label><br>
-                        <input name="confirmPassword" type="password">
+                        <input name="confirmPassword" type="password" placeholder=" " required>
                     </div>
                 </div>
             </fieldset>
