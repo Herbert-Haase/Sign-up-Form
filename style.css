@@ -56,28 +56,29 @@ fieldset {
     padding-bottom: 100px;
 }
 legend {
-    font-size: larger;
+    font-size: 1.5rem;
 }
 button {
     background-color: rgba(245,115,54,255);
     color: white;
-    border: solid white;
+    border: .5px solid white;
     padding: 10px 50px;
     margin: 0 25%;
     border-radius: 10px;
+    font-size: 1rem;
 }
 button:hover {
     background-color: rgb(245, 140, 54);
 
 }
 button:active {
-    border: solid black;
+    border: .5px solid black;
 }
-.button {
+.buttonSection {
     margin-top: 30px;
 }
 a {
-    font-size: 1.2em;
+    font-size: 1.5rem;
     color: rgb(80, 80, 226);
     text-decoration: none;
 }
@@ -101,10 +102,11 @@ a:active {
     color: white;
 }
 input {
+    border: .5px solid gray;
     border-radius: 5px;
 }
 input:not(input:placeholder-shown):not(input:focus):invalid {
-    border: solid red;
+    border: 2px solid red;
     border-radius: 5px;
 }
 
