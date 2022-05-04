@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="clientside_validation.js" defer></script>
     <title>Sign up Form</title>
 </head>
 <body style="display:flex;align-items: stretch;">
@@ -20,29 +21,35 @@
                     <div class="input">
                         <label for="fname">First Name:</label><br>
                         <input name="fname" type="text" pattern="[a-zA-Z]+" placeholder=" " required>
+                        <p class="error-fname"></p><br>
                     </div>
                     <div class="input">
                         <label for="email">E-mail:</label><br>
                         <input name="email" type="email" placeholder=" " required>
+                        <p class="error-email"></p><br>
                     </div>
                     <div class="input">
                         <label for="password">Password:</label><br>
                         <input name="password" type="password" placeholder=" " required>
+                        <p class="error-password"></p><br>
                     </div>
                 </div>
                 <div class="section">
                     <div class="input">
                         <label for="lname">Last Name:</label><br>
                         <input name="lname" type="text" pattern="[a-zA-Z]+" placeholder=" " required>
+                        <p class="error-lname"></p><br>
                     </div>
                 
                     <div class="input">
                         <label for="phone">Phone:</label><br>
                         <input name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder=" " required>
+                        <p class="error-phone"></p><br>
                     </div>
                     <div class="input">
                         <label for="confirmPassword">confirm Password:</label><br>
                         <input name="confirmPassword" type="password" placeholder=" " required>
+                        <p class="error-confirm"></p><br>
                     </div>
                 </div>
             </fieldset>
@@ -55,6 +62,6 @@
     <img class="right" src="image/right.jpg" alt="roller coaster">
     <p id="img2">Photo by Densky Simon on Unsplash</p>
     <p id="img1">Photo by Chris de Tempe on Unsplash</p>
-    
+
 </body>
 </html>
