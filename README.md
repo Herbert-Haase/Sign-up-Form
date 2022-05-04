@@ -5,4 +5,4 @@ An Project inspired by the "PROJECT: SIGN-UP FORM" exercise from The Odin Projec
 
 Live version: https://herbert-haase.github.io/Sign-up-Form/
 
-![screenshot](image/Screenshot)
+![screenshot](image/Screenshot.png)
